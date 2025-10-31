@@ -5,32 +5,35 @@
   <meta charset="UTF-8">
   <title>Контакти</title>
   <base href="../">
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-  <nav>
-    <a href="index.html">Головна</a> |
-    <a href="pages/contact.html">Контакти</a> |
-    <a href="pages/gallery.html">Галерея</a>
+<body id="contact-page">
+  <nav class="menu">
+    <a href="index.html" class="menu-link">Головна</a> |
+    <a href="pages/contact.html" class="menu-link">Контакти</a> |
+    <a href="pages/gallery.html" class="menu-link">Галерея</a>
   </nav>
 
-  <h1>Контактна інформація</h1>
-  <p>Якщо хочеш зв’язатися зі мною — заповни форму нижче:</p>
+  <h1 class="title">Контактна інформація</h1>
+  <p class="intro">Якщо хочеш зв’язатися зі мною — заповни форму нижче:</p>
 
-  <form>
+  <form class="contact-form">
     <fieldset>
       <label>Ім'я: <input type="text" name="name"></label><br><br>
       <label>Ел. пошта: <input type="email" name="email"></label><br><br>
       <label>Повідомлення:</label><br>
       <textarea rows="5" cols="40"></textarea><br><br>
-      <button type="submit">Відправити</button>
+      <button type="submit" class="btn">Відправити</button>
     </fieldset>
   </form>
 
-  <p><b>Email:</b> example_mail@gmail.com</p>
-  <p><b>Телефон:</b> +380 11 111 11 11</p>
+  <div class="contact-info">
+    <p><b>Email:</b> example_mail@gmail.com</p>
+    <p><b>Телефон:</b> +380 11 111 11 11</p>
+  </div>
 
-  <footer>
+  <footer class="footer">
     <p>© 2025 NS</p>
   </footer>
 </body>

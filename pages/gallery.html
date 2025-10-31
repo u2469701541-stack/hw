@@ -5,26 +5,25 @@
   <meta charset="UTF-8">
   <title>Галерея</title>
   <base href="../">
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-  <nav>
-    <a href="index.html">Головна</a> |
-    <a href="pages/contact.html">Контакти</a> |
-    <a href="pages/gallery.html">Галерея</a>
+<body id="gallery-page">
+  <nav class="menu">
+    <a href="index.html" class="menu-link">Головна</a> |
+    <a href="pages/contact.html" class="menu-link">Контакти</a> |
+    <a href="pages/gallery.html" class="menu-link">Галерея</a>
   </nav>
 
-  <h1>Галерея</h1>
-  <p>Кілька фото моєї кицi:</p>
+  <h1 class="title">Галерея</h1>
+  <p class="intro">Кілька фото моєї кицi:</p>
 
-  <table>
-    <tr>
-      <td><img src="photo/cat_1.jpg" alt="cat_1" width="300"></td>
-      <td><img src="photo/cat_2.jpg" alt="cat_2" width="300"></td>
-    </tr>
-  </table>
+  <div class="gallery">
+    <img src="photo/cat_1.jpg" alt="cat_1" width="300">
+    <img src="photo/cat_2.jpg" alt="cat_2" width="300">
+  </div>
 
-  <footer>
+  <footer class="footer">
     <p>© 2025 NS</p>
   </footer>
 </body>
